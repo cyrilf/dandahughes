@@ -8,6 +8,7 @@ backend:
 media_folder: "src/static/img"
 public_folder: "/static/img"
 show_preview_links: true
+site_url: https://danielhughes.netlify.app
 
 # Please run "npx netlify-cms-proxy-server" for local backend
 local_backend: true
@@ -16,7 +17,7 @@ collections:
   - label: "Content"
     name: "content"
     editor:
-      preview: false
+      preview: true
     files:
       - label: "Content"
         name: "content"
@@ -42,7 +43,6 @@ collections:
             label_singular: Link
             name: items
             widget: list
-            collapsed: false
             fields:
               - { label: Name, name: name, widget: string }
               - { label: Link, name: link, widget: string }
@@ -56,7 +56,6 @@ collections:
             label_singular: Album
             name: items
             widget: list
-            collapsed: false
             fields:
               - { label: Title, name: title, widget: string }
               - { label: Cover, name: cover, widget: image }
@@ -74,8 +73,6 @@ collections:
           - label: Nav Items
             name: items
             widget: list
-            allow_add: false
-            collapsed: false
             fields:
               - { label: Title, name: text, widget: string }
               - { label: URL, name: url, widget: string }
