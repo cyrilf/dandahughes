@@ -10,7 +10,7 @@
 
 Starter Template for **N**etlify CMS, **E**leventy, **A**lphine JS & **T**ailwind CSS.
 
-You can access the [Netlify CMS](https://danielhughes.netlify.app/admin) in order to update the content.
+You can access the [Netlify CMS](https://danielhughes.netlify.app/admin) in order to update the dataContent.
 
 If you want to, you can Deploy a copy of this site super easily.
 

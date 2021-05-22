@@ -21,8 +21,10 @@ collections:
     files:
       - label: "Content"
         name: "content"
-        file: "src/_data/content.yaml"
+        file: "src/_data/dataContent.yaml"
         fields:
+          - { label: Seo Title, name: seoTitle, widget: string }
+          - { label: Seo Description, name: seoDescription, widget: string }
           - { label: Intro Title, name: introTitle, widget: string }
           - { label: Intro Text, name: introText, widget: string }
           - { label: Intro Image, name: introImg, widget: image }

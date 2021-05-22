@@ -8,15 +8,15 @@
   <div class="container mx-auto px-4 pt-24" id="music">
     <div class="flex flex-wrap text-center justify-center">
       <div class="w-full lg:w-6/12 px-4">
-        <h2 class="text-4xl font-semibold text-white">{{content.musicTitle}}</h2>
+        <h2 class="text-4xl font-semibold text-white">{{dataContent.musicTitle}}</h2>
         <p class="text-lg leading-relaxed mt-4 mb-4 text-gray-200">
-          {{content.musicText}}
+          {{dataContent.musicText}}
         </p>
         <p>
           Also, you can find my music on Spotify.
         </p>
-        <a href="{{content.musicButtonLink}}" rel="noopener"
-          class="text-primary bg-transparent border border-solid border-primary hover:bg-primary hover:text-white active:bg-pink-600 font-bold uppercase px-8 py-3 rounded outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150">{{content.musicButton}}</a>
+        <a href="{{dataContent.musicButtonLink}}" rel="noopener"
+          class="text-primary bg-transparent border border-solid border-primary hover:bg-primary hover:text-white active:bg-pink-600 font-bold uppercase px-8 py-3 rounded outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150">{{dataContent.musicButton}}</a>
       </div>
     </div>
     {% include "../albums.html" %}
