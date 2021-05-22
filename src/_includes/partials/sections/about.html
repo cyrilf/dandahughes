@@ -9,30 +9,26 @@
     <div class="flex flex-wrap items-center my-24">
       <div class="w-full md:w-5/12 px-4 mr-auto ml-auto">
         <h3 class="text-3xl mb-2 font-semibold leading-normal">
-          About
+          {{content.aboutTitle}}
         </h3>
         <p class="text-lg font-light leading-relaxed mt-4 mb-4 text-gray-700">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-          dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-          ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-          nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
-          anim id est laborum.
+          {{content.aboutText}}
         </p>
       </div>
       <div class="w-full md:w-4/12 px-4 mx-auto mt-16">
         <div
           class="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-pink-600 bg-gradient-to-r from-pink-400 to-primary">
-          <img alt="..." src="static/img/about.jpg" class="w-full align-middle rounded-t-lg" />
+          <img alt="..." src="{{content.aboutImg}}" class="w-full align-middle rounded-t-lg" />
           <blockquote class="relative p-8 mb-4">
             <!-- <svg preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 583 95"
               class="absolute left-0 w-full block" style="height: 95px; top: -94px;">
               <polygon points="-30,95 583,95 583,65" class="text-pink-600 fill-current"></polygon>
             </svg> -->
             <h4 class="text-xl font-bold text-white">
-              Blah blah blah
+              {{content.aboutImgTitle}}
             </h4>
             <p class="text-md font-light mt-2 text-white">
-              I don't know what to type here, but, why not? Hmm.. yeah, why not! I think I'll stop here.
+              {{content.aboutImgText}}
             </p>
           </blockquote>
         </div>

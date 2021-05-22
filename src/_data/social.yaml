@@ -1,0 +1,13 @@
+items:
+  - name: "Youtube"
+    link: "#"
+    icon: fa-youtube
+    colorName: text-red-500
+  - name: "Instagram"
+    link: "#"
+    icon: fa-instagram
+    colorName: text-gray-800
+  - name: "Facebook"
+    link: "#"
+    icon: fa-facebook
+    colorName: text-blue-600

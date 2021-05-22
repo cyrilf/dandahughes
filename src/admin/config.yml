@@ -18,6 +18,36 @@ collections:
     editor:
       preview: false
     files:
+      - label: "Content"
+        name: "content"
+        file: "src/_data/content.yaml"
+        fields:
+          - { label: Intro Title, name: introTitle, widget: string }
+          - { label: Intro Text, name: introText, widget: string }
+          - { label: Intro Image, name: introImg, widget: image }
+          - { label: About Title, name: aboutTitle, widget: string }
+          - { label: About Text, name: aboutText, widget: text }
+          - { label: About Image, name: aboutImg, widget: image }
+          - { label: About Image Title, name: aboutImgTitle, widget: string }
+          - { label: About Image Text, name: aboutImgText, widget: text }
+          - { label: Music Title, name: musicTitle, widget: string }
+          - { label: Music Text, name: musicText, widget: text }
+          - { label: Music Button, name: musicButton, widget: string }
+          - { label: Music Button Link, name: musicButtonLink, widget: string }
+      - label: "Social links"
+        name: "social"
+        file: "src/_data/social.yaml"
+        fields:
+          - label: Links
+            label_singular: Link
+            name: items
+            widget: list
+            collapsed: false
+            fields:
+              - { label: Name, name: name, widget: string }
+              - { label: Link, name: link, widget: string }
+              - { label: Icon, name: icon, widget: string }
+              - { label: Color name, name: colorName, widget: string }
       - label: "Albums"
         name: "albums"
         file: "src/_data/albums.yaml"
