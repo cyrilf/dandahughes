@@ -11,7 +11,9 @@ module.exports = {
       center: true,
     },
     extend: {
-      colors: {},
+      colors: {
+        primary: "hsl(300deg 100% 50%)",
+      },
     },
   },
   variants: {},

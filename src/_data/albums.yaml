@@ -1,0 +1,14 @@
+---
+items:
+  - title: "Album #1"
+    cover: "static/img/about.jpg"
+    description: "Released in 2020. Blah, blah, blah"
+    link: "#"
+  - title: "Album #2"
+    cover: "static/img/about.jpg"
+    description: "Released in 2020. Blah, blah, blah"
+    link: "#"
+  - title: "Album #3"
+    cover: "static/img/about.jpg"
+    description: "Released in 2020. Blah, blah, blah"
+    link: "#"

@@ -1,0 +1,23 @@
+{% if albums.items %}
+<div class="flex flex-wrap mt-12 justify-center">
+  {% for album in albums.items %}
+  <a href="{{album.link}}" class="group lg:w-3/12 px-4 text-center">
+    <div class="bg-white mb-6 shadow-lg text-gray-900 group-hover:bg-primary group-hover:text-white rounded-lg">
+      <img alt="..." src="{{album.cover}}" class="w-full align-middle rounded-t-lg" />
+      <blockquote class="relative p-8 mb-4">
+        <!-- <svg preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 583 95"
+        class="absolute left-0 w-full block" style="height: 95px; top: -94px;">
+        <polygon points="-30,95 583,95 583,65" class="text-pink-600 fill-current"></polygon>
+      </svg> -->
+        <h4 class="text-xl font-bold">
+          {{album.title}}
+        </h4>
+        <p class="text-md font-light mt-2">
+          {{album.description}}
+        </p>
+      </blockquote>
+    </div>
+  </a>
+  {% endfor %}
+</div>
+{% endif %}
