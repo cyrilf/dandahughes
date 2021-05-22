@@ -26,6 +26,7 @@ If you want to, you can Deploy a copy of this site super easily.
 ## Getting Started
 
 [Original Repo.](https://github.com/surjithctly/neat-starter)
+[Theme inspiration used](https://www.creative-tim.com/learning-lab/tailwind-starter-kit/presentation)
 
 Detailed instructions are available in my blog. [Check it out](https://blog.surjithctly.in/neat-stack-create-a-static-website-with-netlify-cms-eleventy-alpinejs-and-tailwindcss)
 
