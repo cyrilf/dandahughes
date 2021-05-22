@@ -1,10 +1,20 @@
-# Neat Starter
+# Daniel Hughes
 
-Starter Template for **N**etlify CMS, **E**leventy, **A**lphine JS & **T**ailwind CSS
+![photo](src/static/img/banner.jpg)
 
-## Live Demo
+> Personal website for [Daniel Hughes](https://danielhughes.netlify.app).
 
-[https://neat-starter.netlify.app/](https://neat-starter.netlify.app/)
+---
+
+## Technical Details
+
+Starter Template for **N**etlify CMS, **E**leventy, **A**lphine JS & **T**ailwind CSS.
+
+You can access the [Netlify CMS](https://danielhughes.netlify.app/admin) in order to update the content.
+
+If you want to, you can Deploy a copy of this site super easily.
+
+<a href="https://app.netlify.com/start/deploy?repository=https://github.com/cyrilf/danielhughes&amp;stack=cms"><img src="https://www.netlify.com/img/deploy/button.svg" alt="Deploy to Netlify" /></a>
 
 ### Technologies used:
 
@@ -13,9 +23,9 @@ Starter Template for **N**etlify CMS, **E**leventy, **A**lphine JS & **T**ailwin
 - [Alpine.js](https://github.com/alpinejs/alpine)
 - [Tailwind CSS](https://tailwindcss.com/)
 
-<a href="https://app.netlify.com/start/deploy?repository=https://github.com/surjithctly/neat-starter&amp;stack=cms"><img src="https://www.netlify.com/img/deploy/button.svg" alt="Deploy to Netlify" /></a>
-
 ## Getting Started
+
+[Original Repo.](https://github.com/surjithctly/neat-starter)
 
 Detailed instructions are available in my blog. [Check it out](https://blog.surjithctly.in/neat-stack-create-a-static-website-with-netlify-cms-eleventy-alpinejs-and-tailwindcss)
 
