@@ -3,3 +3,6 @@
 @tailwind utilities;
 
 /*Your Custom CSS Goes here*/
+h1 {
+  font-family: "Special Elite", cursive;
+}
