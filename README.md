@@ -1,8 +1,8 @@
-# Daniel Hughes
+# Danda Hughes
 
 ![photo](src/static/img/banner.jpg)
 
-> Personal website for [Daniel Hughes](https://danielhughes.netlify.app).
+> Personal website for [Danda Hughes](https://dandahughes.com).
 
 ---
 
@@ -10,7 +10,7 @@
 
 Starter Template for **N**etlify CMS, **E**leventy, **A**lphine JS & **T**ailwind CSS.
 
-You can access the [Netlify CMS](https://danielhughes.netlify.app/admin) in order to update the dataContent.
+You can access the [Netlify CMS](https://dandahughes.com/admin) in order to update the dataContent.
 
 If you want to, you can Deploy a copy of this site super easily.
 

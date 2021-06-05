@@ -2,18 +2,20 @@
   <div class="container mx-auto px-4">
     <div class="items-center flex flex-wrap">
       <div class="w-full md:w-4/12 ml-auto mr-auto px-4">
-        <img alt="..." class="max-w-full rounded-lg shadow-2xl" src="{{dataContent.introImg}}" />
+        <h1 class="text-6xl font-semibold mb-8 md:hidden">{{dataContent.introTitle}}</h1>
+        <img alt="danda" class="max-w-full rounded-lg shadow-2xl" src="{{dataContent.introImg}}" />
       </div>
       <div class="w-full md:w-5/12 ml-auto mr-auto px-4">
         <div class="md:pr-12">
-          <h1 class="text-6xl font-semibold">{{dataContent.introTitle}}</h1>
-          <p class="mt-4 text-lg leading-relaxed text-gray-600 text-justify">
-            {{dataContent.introText}}
+          <h1 class="text-6xl font-semibold hidden md:block">{{dataContent.introTitle}}</h1>
+          <p class="mt-16 md:mt-4 text-lg leading-relaxed text-gray-600 text-justify">
+            {{dataContent.introText | safe}}
           </p>
           {% if social.items %}
-          <ul class="list-none mt-6">
+          <h2 class="mt-8 text-2xl">Find me on:</h2>
+          <ul class="list-none mt-4">
             {% for social in social.items %}
-            <li class="py-2">
+            <li class="p-4">
               <a href="{{social.link}}" rel="noopener" class="group">
                 <div class="flex items-center">
                   <div>
