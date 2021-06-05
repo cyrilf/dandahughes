@@ -26,15 +26,15 @@ collections:
           - { label: Seo Title, name: seoTitle, widget: string }
           - { label: Seo Description, name: seoDescription, widget: string }
           - { label: Intro Title, name: introTitle, widget: string }
-          - { label: Intro Text, name: introText, widget: text }
+          - { label: Intro Text, name: introText, widget: markdown }
           - { label: Intro Image, name: introImg, widget: image }
           - { label: About Title, name: aboutTitle, widget: string }
-          - { label: About Text, name: aboutText, widget: text }
+          - { label: About Text, name: aboutText, widget: markdown }
           - { label: About Image, name: aboutImg, widget: image }
           - { label: About Image Title, name: aboutImgTitle, widget: string }
           - { label: About Image Text, name: aboutImgText, widget: text }
           - { label: Music Title, name: musicTitle, widget: string }
-          - { label: Music Text, name: musicText, widget: text }
+          - { label: Music Text, name: musicText, widget: markdown }
           - { label: Music Button, name: musicButton, widget: string }
           - { label: Music Button Link, name: musicButtonLink, widget: string }
       - label: "Social links"
