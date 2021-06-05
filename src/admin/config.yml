@@ -16,11 +16,11 @@ local_backend: true
 collections:
   - label: "Content"
     name: "content"
-    editor:
-      preview: true
     files:
       - label: "Content"
         name: "content"
+        editor:
+          preview: false
         file: "src/_data/dataContent.yaml"
         fields:
           - { label: Seo Title, name: seoTitle, widget: string }
