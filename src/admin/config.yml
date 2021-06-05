@@ -26,7 +26,7 @@ collections:
           - { label: Seo Title, name: seoTitle, widget: string }
           - { label: Seo Description, name: seoDescription, widget: string }
           - { label: Intro Title, name: introTitle, widget: string }
-          - { label: Intro Text, name: introText, widget: string }
+          - { label: Intro Text, name: introText, widget: text }
           - { label: Intro Image, name: introImg, widget: image }
           - { label: About Title, name: aboutTitle, widget: string }
           - { label: About Text, name: aboutText, widget: text }

@@ -1,31 +1,41 @@
----
 seoTitle: Danda Hughes
 seoDescription: Danda Hughes, musician and artist.
-
 introTitle: Danda Hughes
-introText: "Lifestyle activist & music lover.<br/> I'm releasing my new EP (contemporary love) in July 2021."
-introImg: "static/img/banner.jpg"
-
+introText: >-
+  Lifestyle activist & music lover.
+  I'm releasing my new EP (contemporary love) in July 2021.
+introImg: /static/img/banner.jpg
 aboutTitle: About
-aboutText: "Danda Hughes, born on Dec 16th, 1986 was brought up in Germany.<br/>
-Throughout the last years he's called many places home.<br/>
-He currently resides in Burgundy, France.<br/><br/>
-He considers himself a 'lifestyle activist' regarding his consciously chosen low-impact lifestyle.<br/>
-<br/>
-Danda Hughes combines various vintage styles of music in a unique way:<br/>
-With only his voice, guitar and harmonica he manages to take you back to long forgotten times and far off places...<br/>
-He is part of the Gypsy-Swing Trio 'Swingology', the Electroswingband 'Swing Boheme Orchestra' and the India-based 'Hot Club de Arambol'.<br/>
-<br/>
-He frequently composes and produces in his home studio.<br/>
-<br/>
-His new Solo EP 'Contemporary Love' is a blend of Soul, Folk, Jazz and Pop.<br/>
-It was neither planned nor intended: the Songs and styles just came out during a dark time in last winter's lockdown and manifrsted themselves in this EP.<br/>
-The EP will be released this July (2021)"
-aboutImg: "static/img/contemporary-love.png"
-aboutImgTitle: "Contemporary Love"
-aboutImgText: "New EP coming on July 2021"
+aboutText: >-
+  Danda Hughes, born on Dec 16th, 1986 was brought up in Germany.
 
-musicTitle: "Music"
-musicText: "You can find my music on my Spotify account."
-musicButton: "Danda Hughes on Spotify"
-musicButtonLink: "https://open.spotify.com/artist/6xlxjvemFg1jYnOTCcmy7b"
+  Throughout the last years he's called many places home.
+
+  He currently resides in Burgundy, France.
+
+
+  He considers himself a 'lifestyle activist' regarding his consciously chosen low-impact lifestyle.
+
+
+  Danda Hughes combines various vintage styles of music in a unique way:
+
+  With only his voice, guitar and harmonica he manages to take you back to long forgotten times and far off places...
+
+  He is part of the Gypsy-Swing Trio 'Swingology', the Electroswingband 'Swing Boheme Orchestra' and the India-based 'Hot Club de Arambol'.
+
+
+  He frequently composes and produces in his home studio.
+
+
+  His new Solo EP 'Contemporary Love' is a blend of Soul, Folk, Jazz and Pop.
+
+  It was neither planned nor intended: the Songs and styles just came out during a dark time in last winter's lockdown and manifrsted themselves in this EP.
+
+  The EP will be released this July (2021)
+aboutImg: /static/img/contemporary-love.png
+aboutImgTitle: Contemporary Love
+aboutImgText: New EP coming on July 2021
+musicTitle: Music
+musicText: You can find my music on my Spotify account.
+musicButton: Danda Hughes on Spotify
+musicButtonLink: https://open.spotify.com/artist/6xlxjvemFg1jYnOTCcmy7b
