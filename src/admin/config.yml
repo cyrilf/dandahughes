@@ -4,7 +4,7 @@ backend:
   branch: main
   ### enable below lines for github integration ###
   # name: github
-  # repo: cyrilf/danielhughes
+  repo: cyrilf/danielhughes
 media_folder: "src/static/img"
 public_folder: "/static/img"
 show_preview_links: true
