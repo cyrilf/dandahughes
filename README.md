@@ -14,7 +14,7 @@ You can access the [Netlify CMS](https://dandahughes.com/admin) in order to upda
 
 If you want to, you can Deploy a copy of this site super easily.
 
-<a href="https://app.netlify.com/start/deploy?repository=https://github.com/cyrilf/danielhughes&amp;stack=cms"><img src="https://www.netlify.com/img/deploy/button.svg" alt="Deploy to Netlify" /></a>
+<a href="https://app.netlify.com/start/deploy?repository=https://github.com/cyrilf/dandahughes&amp;stack=cms"><img src="https://www.netlify.com/img/deploy/button.svg" alt="Deploy to Netlify" /></a>
 
 ### Technologies used:
 
