@@ -4,10 +4,10 @@ items:
     icon: fa-youtube
     colorName: text-red-500
   - name: "Instagram"
-    link: "https://www.instagram.com/dandahughes/"
+    link: "https://www.instagram.com/explore/tags/dandahughes/"
     icon: fa-instagram
     colorName: text-gray-800
   - name: "Facebook"
-    link: "https://www.facebook.com/dandahughes/"
+    link: "https://www.facebook.com/dandahughes"
     icon: fa-facebook
     colorName: text-blue-600
