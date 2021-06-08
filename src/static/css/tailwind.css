@@ -3,6 +3,16 @@
 @tailwind utilities;
 
 /*Your Custom CSS Goes here*/
-h1 {
+body {
   font-family: "Special Elite", cursive;
+}
+
+#intro-text a,
+#about a {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.prose a {
+  @apply text-gray-200;
 }

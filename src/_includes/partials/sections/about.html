@@ -1,35 +1,35 @@
-<section class="pb-20 bg-gray-300">
-  <div class="pointer-events-none bg-white overflow-hidden">
+<section class="pb-20 bg-gray-800" id="about">
+  <div class="pointer-events-none bg-gray-900 overflow-hidden">
     <svg class="overflow-hidden" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" version="1.1"
       viewBox="0 0 2560 100" x="0" y="0">
-      <polygon class="text-gray-300 fill-current" points="2560 0 2560 100 0 100"></polygon>
+      <polygon class="text-gray-800 fill-current" points="2560 0 2560 100 0 100"></polygon>
     </svg>
   </div>
-  <div class="container mx-auto px-4" id="about">
-    <div class="flex flex-wrap items-center my-24">
+  <div class="container mx-auto px-4 pt-8" id="about">
+    <div class="flex flex-wrap items-center mb-24">
       <div class="w-full md:w-5/12 px-4 mr-auto ml-auto">
-        <h2 class="text-3xl mb-2 font-semibold leading-normal">
+        <h2 class="text-5xl mb-2 font-semibold text-gray-200 leading-normal">
           {{dataContent.aboutTitle}}
         </h2>
-        <p class="text-lg prose font-light mt-4 mb-4 text-gray-700">
+        <p class="text-lg  text-gray-200 font-light mt-4 mb-4">
           {% markdown %}{{dataContent.aboutText}}{% endmarkdown %}
         </p>
       </div>
       <div class="w-full md:w-4/12 px-4 mx-auto mt-16">
         <div class="relative flex flex-col min-w-0 break-words bg-gray-200 w-full mb-6 shadow-lg rounded-lg">
-          <img alt="about image" src="{{dataContent.aboutImg}}" class="w-full align-middle rounded-t-lg" />
-          <blockquote class="relative p-6 mb-4">
-            <!-- <svg preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 583 95"
+          <img alt="about image" src="{{dataContent.aboutImg}}" class="w-full align-middle rounded-lg" />
+          <!-- <blockquote class="relative p-6 mb-4">
+            <svg preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 583 95"
               class="absolute left-0 w-full block" style="height: 95px; top: -94px;">
               <polygon points="-30,95 583,95 583,65" class="text-pink-600 fill-current"></polygon>
-            </svg> -->
+            </svg>
             <span class="text-xl font-bold">
               {{dataContent.aboutImgTitle}}
             </span>
             <p class="text-md font-light mt-2">
               {{dataContent.aboutImgText}}
             </p>
-          </blockquote>
+          </blockquote> -->
         </div>
       </div>
     </div>

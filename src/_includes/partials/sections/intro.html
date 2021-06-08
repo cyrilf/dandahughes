@@ -1,14 +1,14 @@
-<section class="py-20">
+<section class="py-20 bg-gray-900">
   <div class="container mx-auto px-4">
     <div class="items-center flex flex-wrap">
       <div class="w-full md:w-4/12 ml-auto mr-auto px-4">
-        <h1 class="text-6xl font-semibold mb-8 md:hidden">{{dataContent.introTitle}}</h1>
+        <h1 class="text-6xl font-semibold mb-8 md:hidden text-gray-200">{{dataContent.introTitle}}</h1>
         <img alt="danda" class="max-w-full rounded-lg shadow-2xl" src="{{dataContent.introImg}}" />
       </div>
-      <div class="w-full md:w-5/12 ml-auto mr-auto px-4">
+      <div class="w-full md:w-5/12 ml-auto mr-auto px-4 text-gray-200">
         <div class="md:pr-12">
-          <h1 class="text-6xl font-semibold hidden md:block">{{dataContent.introTitle}}</h1>
-          <p class="mt-16 md:mt-4 text-lg leading-relaxed prose text-gray-600 text-justify">
+          <h1 class="text-6xl font-semibold hidden md:block text-gray-200">{{dataContent.introTitle}}</h1>
+          <p class="mt-16 md:mt-4 text-lg leading-relaxed prose text-gray-200 text-justify" id="intro-text">
             {% markdown %}{{dataContent.introText | safe}}{% endmarkdown %}
           </p>
           {% if social.items %}
@@ -26,7 +26,7 @@
                     </button>
                   </div>
                   <div>
-                    <span class="text-gray-600 group-hover:text-pink-500">{{social.name}}</span>
+                    <span class="text-gray-200 group-hover:text-pink-500">{{social.name}}</span>
                   </div>
                 </div>
               </a>
