@@ -4,7 +4,7 @@ introTitle: Danda Hughes
 introText: >-
   Musician, singer, composer, producer & lifestyle activist
 
-  My [new ep](https://www.indiegogo.com/projects/danda-hughes-ep-contemporary-love#/) will be released in July 2021.
+  My [new ep](https://www.indiegogo.com/projects/danda-hughes-ep-contemporary-love#/) will be released the 29 November 2021.
 introImg: /static/img/banner.jpg
 aboutTitle: About
 aboutText: >-
@@ -28,15 +28,21 @@ aboutText: >-
   He frequently composes and produces in his home studio.
 
 
-  His new Solo EP '[Contemporary Love](https://www.indiegogo.com/projects/danda-hughes-ep-contemporary-love#/)' is a blend of Soul, Folk, Jazz and Pop.
+  ‚[Contemporary Love](https://danda-hughes.bandcamp.com/album/contemporary-love)’ was born as an idea for a concept album.
 
-  It was neither planned nor intended: the Songs and styles just came out during a dark time in last winter's lockdown and manifested themselves in this EP.
+  Then Corona hit and everything changed: during a pretty dark and lonely period of last winter’s lockdown, Danda started songwriting more intensely than he ever did: about 40 Song in 2 months.
 
-  [The EP](https://www.indiegogo.com/projects/danda-hughes-ep-contemporary-love#/) will be released this July (2021)
+  All concepts and preconceived ideas were washed away and slowly but steadily the songs were boiled down to this EP.
+
+
+  On ‚[Contemporary Love](https://danda-hughes.bandcamp.com/album/contemporary-love)‘ he reinvents his musical identity by mixing all the styles that shaped him: Beatles-inspired Pop, a hint of Gypsy Jazz and Soul a la Amy Winehouse.
+
+  It’s hard to find a Genre to fit all songs of this EP, but ‚Retro-Soul-Pop‘ describes it pretty well.
 aboutImg: /static/img/daniel.jpg
 aboutImgTitle: Contemporary Love
-aboutImgText: New EP coming on July 2021
+aboutImgText: New EP coming on the 29 November 2021
 musicTitle: Music
 musicText: You can find my music on my Spotify account.
 musicButton: Danda Hughes on Spotify
-musicButtonLink: https://open.spotify.com/artist/3F6j5Ux9fji71Rs9nkhv4D?si=jYiqPtDWQBu98tcQsX1Ghw
+#musicButtonLink: https://open.spotify.com/artist/3F6j5Ux9fji71Rs9nkhv4D?si=jYiqPtDWQBu98tcQsX1Ghw
+musicButtonLink: "#"

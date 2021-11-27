@@ -12,7 +12,7 @@
           {{dataContent.aboutTitle}}
         </h2>
         <p class="text-lg  text-gray-200 font-light mt-4 mb-4">
-          {% markdown %}{{dataContent.aboutText}}{% endmarkdown %}
+          {% markdown %}{{dataContent.aboutText | safe}}{% endmarkdown %}
         </p>
       </div>
       <div class="w-full md:w-4/12 px-4 mx-auto mt-16">

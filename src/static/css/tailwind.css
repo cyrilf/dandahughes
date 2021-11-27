@@ -13,6 +13,12 @@ body {
   font-weight: bold;
 }
 
+#intro-text a:hover,
+#about a:hover,
+footer a:hover {
+  @apply text-pink-500;
+}
+
 .prose a {
   @apply text-gray-200;
 }

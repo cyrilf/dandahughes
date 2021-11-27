@@ -11,3 +11,12 @@ items:
     link: "https://www.facebook.com/dandahughes"
     icon: fa-facebook
     colorName: text-blue-600
+  - name: "Bandcamp"
+    link: "https://danda-hughes.bandcamp.com/album/contemporary-love"
+    icon: fa-bandcamp
+    colorName: text-blue-400
+  - name: "Spotify"
+    link: "#"
+    #link: "https://open.spotify.com/artist/3F6j5Ux9fji71Rs9nkhv4D?si=jYiqPtDWQBu98tcQsX1Ghw"
+    icon: fa-spotify
+    colorName: text-green-400
