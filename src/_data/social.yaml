@@ -16,7 +16,6 @@ items:
     icon: fa-bandcamp
     colorName: text-blue-400
   - name: "Spotify"
-    link: "#"
-    #link: "https://open.spotify.com/artist/3F6j5Ux9fji71Rs9nkhv4D?si=jYiqPtDWQBu98tcQsX1Ghw"
+    link: "https://open.spotify.com/artist/6AcBhegOKnFL2iBaMrhkd7?si=Nz1YbE0xREC0X16OnFedzQ"
     icon: fa-spotify
     colorName: text-green-400
